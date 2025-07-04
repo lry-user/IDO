@@ -564,7 +564,7 @@ const IdoContent = ({ teamInfo }: IdoContentProps) => {
           </div> */}
           {/* info */}
           <div className="border mt-3 border-[#707070] rounded-[10px] pb-1.5 px-5.5 pt-4 bg-[#18171C]">
-            <div className="text-sm">
+            <div className="text-sm ml-5 mb-2">
               战队成员
             </div> 
             <div className="flex items-center justify-between">

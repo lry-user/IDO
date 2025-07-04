@@ -23,7 +23,7 @@ export function IDOButton() {
     }
     
     // 用户已登录，跳转到IDO页面
-    router.push("/ido");
+    router.push("/");
   }, [status, session, router]);
 
   return (

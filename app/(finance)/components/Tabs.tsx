@@ -77,7 +77,7 @@ export function BottomTabs() {
   backdropFilter: "blur(10px)", }}>
       <div className="flex justify-around items-center">
         <Link href="/" prefetch className="flex flex-col items-center">
-        {isPathActive("/") ? (
+        {isPathActive("/") || isPathActive("/idoInfo") ? (
           <Image src="/images/homeido_action.png" alt="homeido_action" width={28} height={28} />
         ) : (
           <Image src="/images/homeido.png" alt="homeido" width={28} height={28} />
@@ -85,15 +85,15 @@ export function BottomTabs() {
           <span 
             className={cn(
               "text-[12px]",
-              isPathActive("/") ? "text-[#00F6F6]" : "text-white"
+              isPathActive("/") || isPathActive("/idoInfo") ? "text-[#00F6F6]" : "text-white"
             )}
           >
             {t("title.universe")}
           </span>
         </Link>
         
-        <Link href="/profile" prefetch className="flex flex-col items-center">
-          {isPathActive("/profile") ? (
+        <Link href="/wallet" prefetch className="flex flex-col items-center">
+          {isPathActive("/wallet") ? (
             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 56 56">
               <defs>
                 <style>{`
@@ -198,7 +198,7 @@ export function BottomTabs() {
           <span 
             className={cn(
               "text-[12px]",
-              isPathActive("/profile") ? "text-[#00F6F6]" : "text-white"
+              isPathActive("/wallet") ? "text-[#00F6F6]" : "text-white"
             )}
           >
             {t("title.mine")}

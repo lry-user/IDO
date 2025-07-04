@@ -7,32 +7,28 @@ export default async function RecordPage() {
   const t = await getTranslations("wallet");
 
   return (
-    <div className="min-h-screen text-white font-sans p-4 relative" style={{background: 'linear-gradient(342.46deg, #2F0061 0%, #120015 50.68%, #240022 72.43%, #550781 100%)'}}>
+    <div className="min-h-screen text-white font-sans p-4 relative">
       {/* Content */}
       <div className="relative z-10">
-        {/* Header */}
-        <MyPageHeader title={t("record")} backUrl="/wallet" titlePosition="left" />
         {/* Tabs */}
         <div>
           <Tabs defaultValue="recharge" className="w-full">
-            <TabsList className="w-full p-1 h-12 rounded-xl backdrop-blur-lg bg-[#181A1B] border" style={{ boxShadow:
-    "inset 0px 0px 4.7px 0px rgba(255, 255, 255, 0.17), inset 0px 1px 0px 0px rgba(2, 226, 226, 0.7)",
-  backdropFilter: "blur(10px)", }}>
+            <TabsList className="w-full p-1 h-12 rounded-full backdrop-blur-lg bg-[#181A1B] border">
               <TabsTrigger
                 value="recharge"
-                className="flex-1 h-10 data-[state=active]:bg-[rgba(217,217,217,0.17)] data-[state=active]:text-[#00F6F6] rounded-lg"
+                className="flex-1 h-10 data-[state=active]:bg-[#1D81CE] data-[state=active]:text-[#FFFFFF] rounded-full"
               >
                 {t("recharge")}
               </TabsTrigger>
               <TabsTrigger
                 value="withdraw"
-                className="flex-1 h-10 data-[state=active]:bg-[rgba(217,217,217,0.17)] data-[state=active]:text-[#00F6F6] rounded-lg"
+                className="flex-1 h-10 data-[state=active]:bg-[#1D81CE] data-[state=active]:text-[#FFFFFF] rounded-full"
               >
                 {t("withdraw")}
               </TabsTrigger>
               <TabsTrigger
                 value="hi_reward"
-                className="flex-1 h-10 data-[state=active]:bg-[rgba(217,217,217,0.17)] data-[state=active]:text-[#00F6F6] rounded-lg"
+                className="flex-1 h-10 data-[state=active]:bg-[#1D81CE] data-[state=active]:text-[#FFFFFF] rounded-full"
               >
                 {t("hi_reward")}
               </TabsTrigger>

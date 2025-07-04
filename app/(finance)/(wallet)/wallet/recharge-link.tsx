@@ -6,6 +6,7 @@ import { useTranslations } from "next-intl";
 import { Skeleton } from "@/components/ui/skeleton";
 import { useLog } from "@/hooks/log";
 import { useJcUrl } from "@/hooks/jc-url";
+import Image from "next/image";
 export default function RechargeLink() {
   const t = useTranslations("wallet");
   const pathname = usePathname();
@@ -30,14 +31,12 @@ export default function RechargeLink() {
       className="flex flex-col items-center gap-2"
     >
       <div className="w-10 h-10 rounded-full backdrop-blur-lg bg-[#ffffff20] shadow-[inset_0px_1px_0px_0px_#00F6F6] flex items-center justify-center">
-        <svg className="w-6 h-6 text-white" viewBox="0 0 24 24" fill="none">
-          <path
-            d="M12 20V4m0 16l-4-4m4 4l4-4"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-          />
-        </svg>
+            <Image
+              src="/images/cz.png"
+              alt="cz"
+              width={60}
+              height={60}
+            />
       </div>
       <span className="text-sm text-[#00F6F6]">{t("recharge")}</span>
     </Link>

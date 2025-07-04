@@ -3,19 +3,22 @@
 
 }
 .patuimn-text {
-  background: linear-gradient(180deg, #ffffff 0%, #999999 100%);
+  /* background: linear-gradient(180deg, #ffffff 0%, #999999 100%); */
+  background: linear-gradient( 180deg, #FFFFFF 0%, #808080 100%);
   background-clip:text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .daimond-text {
-  background: linear-gradient(180deg, #ffffff 0%, #ffb855 100%);
+  /* background: linear-gradient(180deg, #ffffff 0%, #ffb855 100%); */
+  background: linear-gradient( 180deg, #FFFFFF 0%, #76E9E7 100%);
   background-clip:text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .super-text {
-  background: linear-gradient(180deg, #ffffff 0%, #ff5959 100%);
+  /* background: linear-gradient(180deg, #ffffff 0%, #ff5959 100%); */
+  background: linear-gradient( 180deg, #FFFFFF 0%, #FECE8B 100%);;
   background-clip:text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

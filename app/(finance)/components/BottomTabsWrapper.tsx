@@ -5,7 +5,7 @@ import { BottomTabs } from "./Tabs";
 
 export function BottomTabsWrapper() {
   const pathname = usePathname();
-  const shouldShowBottomTabs = !pathname?.startsWith('/chart') && !pathname?.startsWith('/personal') && !pathname?.startsWith('/records');
+  const shouldShowBottomTabs = !pathname?.startsWith('/chart') && !pathname?.startsWith('/personal') && !pathname?.startsWith('/records')&& !pathname?.startsWith('/record')&& !pathname?.startsWith('/recharge')&& !pathname?.startsWith('/withdraw');
 
   if (!shouldShowBottomTabs) {
     return null;

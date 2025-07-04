@@ -1,0 +1,22 @@
+#ido-info{
+  background: linear-gradient(342.46deg, #2F0061 0%, #120015 50.68%, #240022 72.43%, #550781 100%);
+
+}
+.patuimn-text {
+  background: linear-gradient(180deg, #ffffff 0%, #999999 100%);
+  background-clip:text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.daimond-text {
+  background: linear-gradient(180deg, #ffffff 0%, #ffb855 100%);
+  background-clip:text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.super-text {
+  background: linear-gradient(180deg, #ffffff 0%, #ff5959 100%);
+  background-clip:text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

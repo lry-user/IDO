@@ -1,0 +1,493 @@
+{
+  "auth": {
+    "login": {
+      "title": "登錄",
+      "email": "郵箱地址",
+      "email_placeholder": "請輸入郵箱",
+      "password": "密碼",
+      "password_placeholder": "請輸入密碼",
+      "forgot_password": "忘記密碼",
+      "login_button": "登錄",
+      "login_loading": "登錄中...",
+      "register_tip": "還沒有帳號？去註冊",
+      "validation": {
+        "invalid_credentials": "請輸入正確的郵箱和密碼"
+      },
+      "appid_not_found": "未獲取到appid，請檢查網絡連接"
+    },
+    "jc": {
+      "forgot_password": "忘記密碼",
+      "login_button": "使用JuCoin平台登錄",
+      "login_loading": "連接JuCoin...",
+      "login_error": "登錄失敗，請重試",
+      "missing_redirect_refer": "缺少重定向參數",
+      "new_user_title": "選擇選項",
+      "bind_title": "綁定現有帳號",
+      "email": "電郵地址",
+      "email_placeholder": "請輸入郵箱",
+      "password": "密碼",
+      "password_placeholder": "請輸入密碼",
+      "verification_code": "驗證碼",
+      "code_placeholder": "請輸入驗證碼",
+      "invite_code": "邀請碼",
+      "invite_code_placeholder": "請輸入邀請碼",
+      "send_code": "發送",
+      "countdown": "{seconds}s",
+      "bind_button": "綁定現有帳號",
+      "binding": "綁定中...",
+      "bind_success": "帳號綁定成功",
+      "bind_error": "帳號綁定失敗",
+      "register_button": "註冊新帳號",
+      "registering": "註冊中...",
+      "register_success": "帳號註冊成功",
+      "register_error": "帳號註冊失敗",
+      "code_sent": "驗證碼已發送",
+      "send_code_error": "驗證碼發送失敗",
+      "validation": {
+        "invalid_credentials": "請輸入正確的郵箱和密碼",
+        "invalid_input": "請檢查您的輸入並重試",
+        "email_required": "請輸入有效的郵箱"
+      },
+      "appid_not_found": "未獲取到appid，請檢查網絡連接"
+    },
+    "register": {
+      "title": "註冊",
+      "email": "電郵地址",
+      "email_placeholder": "請輸入郵箱",
+      "password": "密碼",
+      "password_placeholder": "請輸入密碼",
+      "code": "驗證碼",
+      "code_placeholder": "請輸入驗證碼",
+      "send_code": "發送",
+      "countdown": "{seconds}s",
+      "invite_code": "邀請碼",
+      "invite_code_placeholder": "請輸入邀請碼",
+      "agreement": "註冊代表您已閱讀並同意",
+      "privacy_policy": "《隱私協議》",
+      "and": "和",
+      "service_agreement": "《服務協議》",
+      "register_button": "註冊",
+      "register_loading": "註冊中...",
+      "login_tip": "已有帳號，去登入",
+      "success": "註冊成功",
+      "send_code_success": "驗證碼發送成功"
+    },
+    "reset_password": {
+      "title": "重置密碼",
+      "email": "電郵地址",
+      "email_placeholder": "請輸入郵箱",
+      "new_password": "新密碼",
+      "new_password_placeholder": "請輸入新密碼",
+      "code": "驗證碼",
+      "code_placeholder": "請輸入驗證碼",
+      "send_code": "發送",
+      "countdown": "{seconds}s",
+      "confirm_button": "確認",
+      "login_tip": "去登入"
+    }
+  },
+  "dashboard": {
+    "purchase": {
+      "insufficient_balance_tip": "餘額不足，去<wallet>錢包</wallet>充值？",
+      "not_logged_in": "用戶未登錄",
+      "invalid_amount": "請輸入有效的購買金額",
+      "total_limit": "總限購",
+      "remaining_limit": "剩餘額度",
+      "input_placeholder": "輸入 USDT數量",
+      "max": "最大",
+      "exceeded_max": "超出最大可購買數量",
+      "energy_gain": "你將獲得能量",
+      "buying": "購買中...",
+      "buy": "購買",
+      "usdt_balance": "USDT餘額",
+      "total_energy": "獲得總能量",
+      "expected_hi_token": "預計總產出 Hi token",
+      "token_rate": "倍產出",
+      "buy_success": "購買成功"
+    },
+    "ido": {
+      "daily_ido": "Heaven每日能量IDO",
+      "login_button": "登錄",
+      "energy": "能量",
+      "not_started": "香港時間：{date} 開啟",
+      "total_energy": "獲得總能量",
+      "estimated_tokens": "預計總產出 Hi token",
+      "output": "倍產出",
+      "ongoing": "募集中...",
+      "ended": "完成啦！ 耗時{minutes}分{seconds}秒",
+      "coming_soon": "7月10日正式開啟IDO",
+      "coming_hi_soon": "嗨起來即將上線，敬請期待"
+    },
+    "tip": {
+      "ido_tips": {
+        "title": "IDO貼士",
+        "total_energy": "IDO總釋放5億能量",
+        "regardless_funding": "無論是否募款完成",
+        "token_lock": "5億枚HI代幣都會全額銷毀"
+      },
+      "ido_bonus": {
+        "title": "IDO額外贈送",
+        "team_income": "戰隊收益H2級別",
+        "ieo_qualification": "即將到來的IEO資格",
+        "lowest_price": "您目前獲得的能量，將是史上最低價"
+      }
+    },
+    "ieo_coming_soon": "IEO即將到來"
+  },
+  "wallet": {
+    "title": "錢包",
+    "recharge": "充值",
+    "withdraw": "提現",
+    "record": "記錄",
+    "myAssets": "我的資產",
+    "estimatedTotalAssets": "預估總資產",
+    "network": "網絡",
+    "rechargeAddress": "充值地址",
+    "minRechargeAmount": "最小充值數量",
+    "networkConfirmations": "網絡確認",
+    "confirmationTimes": "15次",
+    "minAmount": "1 USDT",
+    "saveQR": "保存圖片",
+    "receive_address": "接收地址",
+    "receive_address_placeholder": "請輸入提現接收地址",
+    "withdraw_network": "提現網絡",
+    "withdraw_amount": "提現數量",
+    "min_withdraw_amount": "最小提現數量",
+    "network_confirm": "網絡確認",
+    "available_balance": "可用餘額",
+    "withdraw_success": "提現成功",
+    "withdraw_failed": "提現失敗",
+    "please_fill_all_fields": "請填寫所有欄位",
+    "withdrawing": "提現中...",
+    "no_records": "暫無記錄",
+    "pending": "進行中",
+    "success": "成功",
+    "failed": "失敗",
+    "withdrawal_fee_rate": "提現手續費",
+    "withdraw_error_text": "提現配置獲取失敗，請稍後再試",
+    "user_password": "請輸入支付密碼",
+    "select_coin": "選擇幣種",
+    "hi_reward": "HI獎勵",
+    "stake_reward": "質押獎勵",
+    "burn_reward": "銷毀獎勵",
+    "direct_reward": "直推獎勵",
+    "team_reward": "戰隊獎勵",
+    "payment_password_not_set": "未設置支付密碼,請先",
+    "set_payment_password": "設置支付密碼",
+    "payment_password_set_success": "支付密碼設置成功"
+  },
+  "profile": {
+    "invite": {
+      "title": "邀請更多好友",
+      "subtitle": "賺取更多獎勵",
+      "code": "邀請碼",
+      "link": "邀請鏈接",
+      "view_team": "我的戰隊",
+      "player": "邀請玩家",
+      "android_save_hint": "如果圖片未自動保存，請長按圖片保存"
+    },
+    "stats": {
+      "boost": "算力",
+      "reward": "收益",
+      "claimed": "已領取",
+      "pending_direct": "待發放獎勵",
+      "expired_direct": "已過期獎勵",
+      "remaining_time": "待發放獎勵剩餘時間",
+      "expired_direct_help": "獎勵在未發放時，會進入待領取。",
+      "buy_help": "購買任意算力節點後，自動發放待領取獎勵。",
+      "time_units": {
+        "day": "天",
+        "hour": "時",
+        "minute": "分"
+      }
+    },
+    "nav": {
+      "wallet": "錢包",
+      "order": "訂單",
+      "record": "記錄",
+      "settings": "設置"
+    }
+  },
+  "common": {
+    "copySuccess": "複製成功",
+    "copyFailed": "複製失敗",
+    "saveQR": "保存二維碼",
+    "notices": {
+      "title": "公告",
+      "no_notices": "暫無公告"
+    },
+    "go_home": "回到首頁",
+    "submitting": "提交中..."
+  },
+  "settings": {
+    "title": "設置",
+    "language": "語言",
+    "select_language": "選擇語言",
+    "cancel": "取消",
+    "reset_password": "重置密碼",
+    "my_referrer": "我的推薦人",
+    "logout": "退出登錄",
+    "feedback": "問題反饋",
+    "reset_payment_password": "重置支付密碼"
+  },
+  "team": {
+    "title": "我的戰隊",
+    "direct": "直推",
+    "team": "戰隊",
+    "no_members": "暫無戰隊成員",
+    "user_id": "用戶ID",
+    "level": "等級",
+    "total_burn_amount": "總銷毀量",
+    "team_size": "戰隊成員",
+    "team_total_burn_amount": "戰隊總銷毀量: {total_burn_amount}",
+    "direct_total_burn_amount": "直推總銷毀量: {total_burn_amount}",
+    "24h_increase": "個人今日銷毀量",
+    "team_total": "戰隊總銷毀量",
+    "team_24h_total": "戰隊今日銷毀量",
+    "own_burn": "個人總銷毀量"
+  },
+  "orders": {
+    "title": "訂單",
+    "copy_order_id": "複製訂單號",
+    "no_orders": "暫無訂單",
+    "energy": "能量"
+  },
+  "rewards": {
+    "title": "收益記錄",
+    "promotion_rewards": "收益記錄",
+    "mining_rewards": "挖礦記錄",
+    "today_reward": "今日收益",
+    "total_reward": "累計收益",
+    "direct_reward": "直推收益",
+    "indirect_reward": "間推收益",
+    "team_reward": "戰隊收益",
+    "mining_reward": "挖礦收益",
+    "no_rewards": "暫無收益記錄"
+  },
+  "invite": {
+    "title": "打造沉浸式教育新時代",
+    "subtitle": "領航區塊鏈、AI、VR/AR融合潮流",
+    "code": "邀請碼",
+    "register": "掃碼註冊，共創價值，共享未來",
+    "save_qr": "保存二維碼",
+    "error": "保存失敗",
+    "android_save_hint": "如果圖片未自動保存，請長按圖片保存或截圖保存"
+  },
+  "feedback": {
+    "title": "問題反饋",
+    "title_placeholder": "請輸入標題",
+    "content": "反饋內容",
+    "content_placeholder": "請詳細描述您遇到的問題",
+    "submit": "提交",
+    "submitting": "提交中...",
+    "success": "提交成功",
+    "error": "提交失敗",
+    "validation": {
+      "required": "請填寫完整信息"
+    }
+  },
+  "validation": {
+    "email": {
+      "required": "請輸入郵箱",
+      "invalid": "請輸入有效的郵箱"
+    },
+    "password": {
+      "required": "請輸入密碼",
+      "min": "密碼至少需要 {length} 個字符"
+    },
+    "code": {
+      "required": "請輸入驗證碼",
+      "invalid": "請輸入有效的驗證碼"
+    },
+    "invite_code": {
+      "required": "請輸入邀請碼",
+      "min": "邀請碼至少需要 {length} 個字符"
+    }
+  },
+  "error": {
+    "token_expired": "登錄已過期，請重新登錄",
+    "error": "錯誤",
+    "sessionExpired": "登錄已失效",
+    "pleaseLoginAgain": "請重新登錄",
+    "unknownError": "發生未知錯誤",
+    "backToHome": "返回首頁"
+  },
+  "ieo": {
+    "title": "Hi IEO",
+    "login_button": "登錄",
+    "info": {
+      "price": "認購價格",
+      "totalSupply": "代幣分發量",
+      "targetAmount": "目標金額",
+      "totalSubscription": "總認購額",
+      "multiple": "認購倍數",
+      "billion": "億",
+      "hundredMillion": "億",
+      "tenThousand": "萬"
+    },
+    "countdown": {
+      "title": "倒計時",
+      "startAt": "{time}開啟",
+      "end": "結束於{time}"
+    },
+    "purchase": {
+      "inputPlaceholder": "{min} - {max}",
+      "maxButton": "最大",
+      "buyButton": "購買",
+      "processing": "處理中...",
+      "balance": "USDT餘額",
+      "mySubscription": "我的認購",
+      "ratio": "分配比",
+      "estimatedFee": "預計扣費",
+      "estimatedReward": "預計獲得",
+      "locked": "(鎖定)",
+      "ratio_description": "(我的認購 / 總認購額度)",
+      "estimatedFee_description": "(分配比 * 目標金額)",
+      "estimatedReward_description": "(預計扣費 / 代幣單價)"
+    },
+    "messages": {
+      "invalidAmount": "請輸入有效的購買數量",
+      "insufficientBalance": "餘額不足",
+      "purchaseSuccess": "購買成功",
+      "purchaseFailed": "購買失敗：{error}",
+      "unknownError": "未知錯誤"
+    }
+  },
+  "finance": {
+    "global_participation": "全球參與(銷毀+質押)",
+    "query_black_hole": "查詢銷毀黑洞",
+    "contract_address": "Hi 合約地址",
+    "title": {
+      "universe": "Hi 宇宙",
+      "personal": "個人收益",
+      "team": "戰隊收益",
+      "chart": "收益圖譜",
+      "hi_universe_records": "HI宇宙記錄",
+      "personal_earnings_records": "個人收益記錄",
+      "team_earnings_records": "戰隊收益記錄",
+      "earn": "賺",
+      "hieco": "Hi 生態",
+      "mine": "我的"
+    },
+    "team_claimed_amount": "已產出: {totalAmount}Hi",
+    "team_my_level": "我的等級: H{level}",
+    "team_my_level_lable": "我的等級: ",
+    "team_my_level_value": "H{level}",
+    "total_earnings": "總收益",
+    "claim": "領取",
+    "claiming": "領取中...",
+    "over_percentage": "超過{percentage}%的人",
+    "over_year_rate": "超額年化（最高{max}倍）",
+    "year_rate": "年化",
+    "stake": "質押",
+    "stake_days": "質押{days}天",
+    "unstaked": "已解押",
+    "burn": "銷毀",
+    "no_records": "暫無記錄",
+    "time": "時間",
+    "type": "類型",
+    "amount": "數量",
+    "expired_at": "({date} {time}到期)",
+    "burned": "已銷毀",
+    "team_total_income": "戰隊總收益",
+    "limit": "上限",
+    "quota": "配額",
+    "team_income_limit_desc": "(配額=個人銷毀預期總收益)",
+    "team_income_limit_desc_2": "(已產出=個人銷毀已產出+直推銷毀已產出+戰隊銷毀已產出)",
+    "direct_burn_income": "直推銷毀收益",
+    "own_total_income": "我已產出銷毀收益",
+    "direct_burn_income_desc": "(戰隊成員已銷毀HI的5%)",
+    "direct_referrals": "直推",
+    "view": "查看",
+    "people": "人",
+    "pending_direct_income": "待領取直推收益",
+    "real_time_income_no_fee": "實時到賬 手續費{fee}%",
+    "team_burn_income": "戰隊銷毀收益",
+    "my_level": "我的等級",
+    "level_info": "等級說明",
+    "team_members": "戰隊成員",
+    "pending_team_income": "待領取戰隊收益",
+    "daily_income_with_fee": "每日15：00點產出 手續費{fee}%",
+    "records": "記錄",
+    "direct_profit_records": "直推收益記錄",
+    "team_profit_records": "戰隊收益記錄",
+    "user_id": "用戶ID",
+    "hi_burn_amount": "HI銷毀量",
+    "earnings": "收益",
+    "level": "等級",
+    "daily_hi_output": "每日HI產出",
+    "stake_form": {
+      "record": "記錄",
+      "title": "質押",
+      "burn_title": "銷毀",
+      "input_stake": "輸入質押HI數量",
+      "input_burn": "輸入銷毀HI數量",
+      "max_button": "最大",
+      "daily_output": "每日產出",
+      "total_output": "總產出",
+      "submit": "提交",
+      "processing": "處理中...",
+      "success": "操作成功",
+      "error": "操作失敗",
+      "invalid_amount": "請輸入有效金額",
+      "insufficient_balance_tip": "餘額不足，去<wallet>錢包</wallet>充值？",
+      "min_amount": "請輸入大於{min}的數量"
+    },
+    "chart": {
+      "burn_reward_earned": "銷毀收益",
+      "stake_reward_earned": "質押收益",
+      "direct_burn_amount_earned": "直推銷毀收益",
+      "team_burn_reward_earned": "戰隊銷毀收益"
+    },
+    "personal": {
+      "burn_total_earnings": "銷毀預期總收益",
+      "stake_total_earnings": "質押預期總收益",
+      "burned": "已銷毀",
+      "pending_burn": "待領取銷毀收益",
+      "claimed_burn": "已領取銷毀收益",
+      "staking": "質押中",
+      "pending_stake": "待領取質押收益",
+      "claimed_stake": "已領取質押收益",
+      "subtitle": "每日15：00點產出 手續費{fee}%",
+      "stake_subtitle_2": "(到期自動解押)",
+      "burn_reward": "銷毀收益",
+      "stake_reward": "質押收益",
+      "direct_reward": "直推收益",
+      "team_reward": "戰隊收益",
+      "pending": "待領取",
+      "claimed": "已領取"
+    },
+    "earn_date": "獲得時間",
+    "claimed_time": "領取時間",
+    "not_claimed": "未領取",
+    "stay_tuned":"敬請期待",
+    "contact_us": "聯繫我們",
+    "earn": {
+      "total_earnings": "總收益",
+      "personal_earnings": "個人收益",
+      "team_earnings": "戰隊收益",
+      "click_to_view": "點擊查看"
+    },
+    "wechat_modal": {
+      "title": "微信二維碼",
+      "scan_prompt": "掃描二維碼添加微信好友"
+    },
+    "game": {
+      "sections": {
+        "ido": "IDO",
+        "game": "GAME",
+        "social": "SOCIAL"
+      },
+      "hi_ecosystem_group": "Hi生態群組",
+      "contact_service": "聯繫客服"
+    }
+  },
+  "feedbackButton": {
+    "open": "開啟微信客服",
+    "hide": "隱藏按鈕",
+    "title": "微信客服二維碼",
+    "scan_prompt": "掃描二維碼聯繫客服",
+    "qr_url_missing": "未提供客服鏈接",
+    "close": "關閉"
+  }
+}

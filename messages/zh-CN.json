@@ -1,0 +1,493 @@
+{
+  "auth": {
+    "login": {
+      "title": "登录",
+      "email": "邮箱地址",
+      "email_placeholder": "请输入邮箱",
+      "password": "密码",
+      "password_placeholder": "请输入密码",
+      "forgot_password": "忘记密码",
+      "login_button": "登录",
+      "login_loading": "登录中...",
+      "register_tip": "还没有账号？去注册",
+      "validation": {
+        "invalid_credentials": "请输入正确的邮箱和密码"
+      },
+      "appid_not_found": "未获取到appid，请检查网络连接"
+    },
+    "jc": {
+      "forgot_password": "忘记密码",
+      "login_button": "使用JuCoin平台登录",
+      "login_loading": "连接JuCoin...",
+      "login_error": "登录失败，请重试",
+      "missing_redirect_refer": "缺少重定向参数",
+      "new_user_title": "选择选项",
+      "bind_title": "绑定现有账号",
+      "email": "电邮地址",
+      "email_placeholder": "请输入邮箱",
+      "password": "密码",
+      "password_placeholder": "请输入密码",
+      "verification_code": "验证码",
+      "code_placeholder": "请输入验证码",
+      "invite_code": "邀请码",
+      "invite_code_placeholder": "请输入邀请码",
+      "send_code": "发送",
+      "countdown": "{seconds}s",
+      "bind_button": "绑定现有账号",
+      "binding": "绑定中...",
+      "bind_success": "账号绑定成功",
+      "bind_error": "账号绑定失败",
+      "register_button": "注册新账号",
+      "registering": "注册中...",
+      "register_success": "账号注册成功",
+      "register_error": "账号注册失败",
+      "code_sent": "验证码已发送",
+      "send_code_error": "验证码发送失败",
+      "validation": {
+        "invalid_credentials": "请输入正确的邮箱和密码",
+        "invalid_input": "请检查您的输入并重试",
+        "email_required": "请输入有效的邮箱"
+      },
+      "appid_not_found": "未获取到appid，请检查网络连接"
+    },
+    "register": {
+      "title": "注册",
+      "email": "电邮地址",
+      "email_placeholder": "请输入邮箱",
+      "password": "密码",
+      "password_placeholder": "请输入密码",
+      "code": "验证码",
+      "code_placeholder": "请输入验证码",
+      "send_code": "发送",
+      "countdown": "{seconds}s",
+      "invite_code": "邀请码",
+      "invite_code_placeholder": "请输入邀请码",
+      "agreement": "注册代表您已阅读并同意",
+      "privacy_policy": "《隐私协议》",
+      "and": "和",
+      "service_agreement": "《服务协议》",
+      "register_button": "注册",
+      "register_loading": "注册中...",
+      "login_tip": "已有账号，去登录",
+      "success": "注册成功",
+      "send_code_success": "验证码发送成功"
+    },
+    "reset_password": {
+      "title": "重置密码",
+      "email": "电邮地址",
+      "email_placeholder": "请输入邮箱",
+      "new_password": "新密码",
+      "new_password_placeholder": "请输入新密码",
+      "code": "验证码",
+      "code_placeholder": "请输入验证码",
+      "send_code": "发送",
+      "countdown": "{seconds}s",
+      "confirm_button": "确认",
+      "login_tip": "去登录"
+    }
+  },
+  "dashboard": {
+    "purchase": {
+      "insufficient_balance_tip": "余额不足，去<wallet>钱包</wallet>充值？",
+      "not_logged_in": "用户未登录",
+      "invalid_amount": "请输入有效的购买金额",
+      "total_limit": "总限购",
+      "remaining_limit": "剩余额度",
+      "input_placeholder": "输入 USDT数量",
+      "max": "最大",
+      "exceeded_max": "超出最大可购买数量",
+      "energy_gain": "你将获得能量",
+      "buying": "购买中...",
+      "buy": "购买",
+      "usdt_balance": "USDT余额",
+      "total_energy": "获得总能量",
+      "expected_hi_token": "预计总产出 Hi token",
+      "token_rate": "倍产出",
+      "buy_success": "购买成功"
+    },
+    "ido": {
+      "daily_ido": "Heaven每日能量IDO",
+      "login_button": "登录",
+      "energy": "能量",
+      "not_started": "香港时间：{date} 开启",
+      "total_energy": "获得总能量",
+      "estimated_tokens": "预计总产出 Hi token",
+      "output": "倍产出",
+      "ongoing": "募集中...",
+      "ended": "完成啦！ 耗时{minutes}分{seconds}秒",
+      "coming_soon": "7月10日正式开启IDO",
+      "coming_hi_soon": "嗨起来即将上线，敬请期待"
+    },
+    "tip": {
+      "ido_tips": {
+        "title": "IDO贴士",
+        "total_energy": "IDO总释放5亿能量",
+        "regardless_funding": "无论是否募款完成",
+        "token_lock": "5亿枚HI代币都会全额销毁"
+      },
+      "ido_bonus": {
+        "title": "IDO额外赠送",
+        "team_income": "战队收益H2级别",
+        "ieo_qualification": "即将到来的IEO资格",
+        "lowest_price": "您目前获得的能量，将是史上最低价"
+      }
+    },
+    "ieo_coming_soon": "IEO即将到来"
+  },
+  "wallet": {
+    "title": "钱包",
+    "recharge": "充值",
+    "withdraw": "提现",
+    "record": "记录",
+    "myAssets": "我的资产",
+    "estimatedTotalAssets": "预估总资产",
+    "network": "网络",
+    "rechargeAddress": "充值地址",
+    "minRechargeAmount": "最小充值数量",
+    "networkConfirmations": "网络确认",
+    "confirmationTimes": "15次",
+    "minAmount": "1 USDT",
+    "saveQR": "保存图片",
+    "receive_address": "接收地址",
+    "receive_address_placeholder": "请输入提现接收地址",
+    "withdraw_network": "提现网络",
+    "withdraw_amount": "提现数量",
+    "min_withdraw_amount": "最小提现数量",
+    "network_confirm": "网络确认",
+    "available_balance": "可用余额",
+    "withdraw_success": "提现成功",
+    "withdraw_failed": "提现失败",
+    "please_fill_all_fields": "请填写所有字段",
+    "withdrawing": "提现中...",
+    "no_records": "暂无记录",
+    "pending": "进行中",
+    "success": "成功",
+    "failed": "失败",
+    "withdrawal_fee_rate": "提现手续费",
+    "withdraw_error_text": "提现配置获取失败，请稍后再试",
+    "user_password": "请输入支付密码",
+    "select_coin": "选择币种",
+    "hi_reward": "HI奖励",
+    "stake_reward": "质押奖励",
+    "burn_reward": "销毁奖励",
+    "direct_reward": "直推奖励",
+    "team_reward": "战队奖励",
+    "payment_password_not_set": "未设置支付密码,请先",
+    "set_payment_password": "设置支付密码",
+    "payment_password_set_success": "支付密码设置成功"
+  },
+  "profile": {
+    "invite": {
+      "title": "邀请更多好友",
+      "subtitle": "赚取更多奖励",
+      "code": "邀请码",
+      "link": "邀请链接",
+      "view_team": "我的战队",
+      "player": "邀请玩家",
+      "android_save_hint": "如果图片未自动保存，请长按图片保存"
+    },
+    "stats": {
+      "boost": "算力",
+      "reward": "收益",
+      "claimed": "已领取",
+      "pending_direct": "待发放奖励",
+      "expired_direct": "已过期奖励",
+      "remaining_time": "待发放奖励剩余时间",
+      "expired_direct_help": "奖励在未发放时，会进入待领取。",
+      "buy_help": "购买任意算力节点后，自动发放待领取奖励。",
+      "time_units": {
+        "day": "天",
+        "hour": "时",
+        "minute": "分"
+      }
+    },
+    "nav": {
+      "wallet": "钱包",
+      "order": "订单",
+      "record": "记录",
+      "settings": "设置"
+    }
+  },
+  "common": {
+    "copySuccess": "复制成功",
+    "copyFailed": "复制失败",
+    "saveQR": "保存二维码",
+    "notices": {
+      "title": "公告",
+      "no_notices": "暂无公告"
+    },
+    "go_home": "回到首页",
+    "submitting": "提交中..."
+  },
+  "settings": {
+    "title": "设置",
+    "language": "语言",
+    "select_language": "选择语言",
+    "cancel": "取消",
+    "reset_password": "重置密码",
+    "my_referrer": "我的推荐人",
+    "logout": "退出登录",
+    "feedback": "问题反馈",
+    "reset_payment_password": "重置支付密码"
+  },
+  "team": {
+    "title": "我的战队",
+    "direct": "直推",
+    "team": "战队",
+    "no_members": "暂无战队成员",
+    "user_id": "用户ID",
+    "level": "等级",
+    "total_burn_amount": "总销毁量",
+    "team_size": "战队成员",
+    "team_total_burn_amount": "战队总销毁量: {total_burn_amount}",
+    "direct_total_burn_amount": "直推总销毁量: {total_burn_amount}",
+    "24h_increase": "个人今日销毁量",
+    "team_total": "战队总销毁量",
+    "team_24h_total": "战队今日销毁量",
+    "own_burn": "个人总销毁量"
+  },
+  "orders": {
+    "title": "订单",
+    "copy_order_id": "复制订单号",
+    "no_orders": "暂无订单",
+    "energy": "能量"
+  },
+  "rewards": {
+    "title": "收益记录",
+    "promotion_rewards": "收益记录",
+    "mining_rewards": "挖矿记录",
+    "today_reward": "今日收益",
+    "total_reward": "累计收益",
+    "direct_reward": "直推收益",
+    "indirect_reward": "间推收益",
+    "team_reward": "战队收益",
+    "mining_reward": "挖矿收益",
+    "no_rewards": "暂无收益记录"
+  },
+  "invite": {
+    "title": "打造沉浸式教育新时代",
+    "subtitle": "领航区块链、AI、VR/AR融合潮流",
+    "code": "邀请码",
+    "register": "扫码注册，共创价值，共享未来",
+    "save_qr": "保存二维码",
+    "error": "保存失败",
+    "android_save_hint": "如果图片未自动保存，请长按图片保存或截图保存"
+  },
+  "feedback": {
+    "title": "问题反馈",
+    "title_placeholder": "请输入标题",
+    "content": "反馈内容",
+    "content_placeholder": "请详细描述您遇到的问题",
+    "submit": "提交",
+    "submitting": "提交中...",
+    "success": "提交成功",
+    "error": "提交失败",
+    "validation": {
+      "required": "请填写完整信息"
+    }
+  },
+  "validation": {
+    "email": {
+      "required": "请输入邮箱",
+      "invalid": "请输入有效的邮箱"
+    },
+    "password": {
+      "required": "请输入密码",
+      "min": "密码至少需要 {length} 个字符"
+    },
+    "code": {
+      "required": "请输入验证码",
+      "invalid": "请输入有效的验证码"
+    },
+    "invite_code": {
+      "required": "请输入邀请码",
+      "min": "邀请码至少需要 {length} 个字符"
+    }
+  },
+  "error": {
+    "token_expired": "登录已过期，请重新登录",
+    "error": "错误",
+    "sessionExpired": "登录已失效",
+    "pleaseLoginAgain": "请重新登录",
+    "unknownError": "发生未知错误",
+    "backToHome": "返回首页"
+  },
+  "ieo": {
+    "title": "Hi IEO",
+    "login_button": "登录",
+    "info": {
+      "price": "认购价格",
+      "totalSupply": "代币分发量",
+      "targetAmount": "目标金额",
+      "totalSubscription": "总认购额",
+      "multiple": "认购倍数",
+      "billion": "亿",
+      "hundredMillion": "亿",
+      "tenThousand": "万"
+    },
+    "countdown": {
+      "title": "倒计时",
+      "startAt": "{time}开启",
+      "end": "结束于{time}"
+    },
+    "purchase": {
+      "inputPlaceholder": "{min} - {max}",
+      "maxButton": "最大",
+      "buyButton": "购买",
+      "processing": "处理中...",
+      "balance": "USDT余额",
+      "mySubscription": "我的认购",
+      "ratio": "分配比",
+      "estimatedFee": "预计扣费",
+      "estimatedReward": "预计获得",
+      "locked": "(锁定)",
+      "ratio_description": "(我的认购 / 总认购额度)",
+      "estimatedFee_description": "(分配比 * 目标金额)",
+      "estimatedReward_description": "(预计扣费 / 代币单价)"
+    },
+    "messages": {
+      "invalidAmount": "请输入有效的购买数量",
+      "insufficientBalance": "余额不足",
+      "purchaseSuccess": "购买成功",
+      "purchaseFailed": "购买失败：{error}",
+      "unknownError": "未知错误"
+    }
+  },
+  "finance": {
+    "global_participation": "全球参与(销毁+质押)",
+    "query_black_hole": "查询销毁黑洞",
+    "contract_address": "Hi 合约地址",
+    "title": {
+      "universe": "Hi 宇宙",
+      "personal": "个人收益",
+      "team": "战队收益",
+      "chart": "收益图谱",
+      "hi_universe_records": "HI宇宙记录",
+      "personal_earnings_records": "个人收益记录",
+      "team_earnings_records": "战队收益记录",
+      "earn": "赚",
+      "hieco": "Hi 生态",
+      "mine": "我的"
+    },
+    "team_claimed_amount": "已产出: {totalAmount}Hi",
+    "team_my_level": "我的等级: H{level}",
+    "team_my_level_lable": "我的等级: ",
+    "team_my_level_value": "H{level}",
+    "total_earnings": "总收益",
+    "claim": "领取",
+    "claiming": "领取中...",
+    "over_percentage": "超过{percentage}%的人",
+    "over_year_rate": "超额年化（最高{max}倍）",
+    "year_rate": "年化",
+    "stake": "质押",
+    "stake_days": "质押{days}天",
+    "unstaked": "已解押",
+    "burn": "销毁",
+    "no_records": "暂无记录",
+    "time": "时间",
+    "type": "类型",
+    "amount": "数量",
+    "expired_at": "({date} {time}到期)",
+    "burned": "已销毁",
+    "team_total_income": "战队总收益",
+    "limit": "上限",
+    "quota": "配额",
+    "team_income_limit_desc": "(配额=个人销毁预期总收益)",
+    "team_income_limit_desc_2": "(已产出=个人销毁已产出+直推销毁已产出+战队销毁已产出)",
+    "direct_burn_income": "直推销毁收益",
+    "own_total_income": "我已产出销毁收益",
+    "direct_burn_income_desc": "(战队成员已销毁HI的5%)",
+    "direct_referrals": "直推",
+    "view": "查看",
+    "people": "人",
+    "pending_direct_income": "待领取直推收益",
+    "real_time_income_no_fee": "实时到账 手续费{fee}%",
+    "team_burn_income": "战队销毁收益",
+    "my_level": "我的等级",
+    "level_info": "等级说明",
+    "team_members": "战队成员",
+    "pending_team_income": "待领取战队收益",
+    "daily_income_with_fee": "每日15：00点产出 手续费{fee}%",
+    "records": "记录",
+    "direct_profit_records": "直推收益记录",
+    "team_profit_records": "战队收益记录",
+    "user_id": "用户ID",
+    "hi_burn_amount": "HI销毁量",
+    "earnings": "收益",
+    "level": "等级",
+    "daily_hi_output": "每日HI产出",
+    "stake_form": {
+      "record": "记录",
+      "title": "质押",
+      "burn_title": "销毁",
+      "input_stake": "输入质押HI数量",
+      "input_burn": "输入销毁HI数量",
+      "max_button": "最大",
+      "daily_output": "每日产出",
+      "total_output": "总产出",
+      "submit": "提交",
+      "processing": "处理中...",
+      "success": "操作成功",
+      "error": "操作失败",
+      "invalid_amount": "请输入有效金额",
+      "insufficient_balance_tip": "余额不足，去<wallet>钱包</wallet>充值？",
+      "min_amount": "请输入大于{min}的数量"
+    },
+    "chart": {
+      "burn_reward_earned": "销毁收益",
+      "stake_reward_earned": "质押收益",
+      "direct_burn_amount_earned": "直推销毁收益",
+      "team_burn_reward_earned": "战队销毁收益"
+    },
+    "personal": {
+      "burn_total_earnings": "销毁预期总收益",
+      "stake_total_earnings": "质押预期总收益",
+      "burned": "已销毁",
+      "pending_burn": "待领取销毁收益",
+      "claimed_burn": "已领取销毁收益",
+      "staking": "质押中",
+      "pending_stake": "待领取质押收益",
+      "claimed_stake": "已领取质押收益",
+      "subtitle": "每日15：00点产出 手续费{fee}%",
+      "stake_subtitle_2": "(到期自动解押)",
+      "burn_reward": "销毁收益",
+      "stake_reward": "质押收益",
+      "direct_reward": "直推收益",
+      "team_reward": "战队收益",
+      "pending": "待领取",
+      "claimed": "已领取"
+    },
+    "earn_date": "获得时间",
+    "claimed_time": "领取时间",
+    "not_claimed": "未领取",
+    "stay_tuned": "敬请期待",
+    "contact_us": "联系我们",
+    "earn": {
+      "total_earnings": "总收益",
+      "personal_earnings": "个人收益",
+      "team_earnings": "战队收益",
+      "click_to_view": "点击查看"
+    },
+    "wechat_modal": {
+      "title": "微信二维码",
+      "scan_prompt": "扫描二维码添加微信好友"
+    },
+    "game": {
+      "sections": {
+        "ido": "IDO",
+        "game": "GAME",
+        "social": "SOCIAL"
+      },
+      "hi_ecosystem_group": "Hi生态群组",
+      "contact_service": "联系客服"
+    }
+  },
+  "feedbackButton": {
+    "open": "开启微信客服",
+    "hide": "隐藏按钮",
+    "title": "微信客服二维码",
+    "scan_prompt": "扫描二维码联系客服",
+    "qr_url_missing": "未提供客服链接",
+    "close": "关闭"
+  }
+} 

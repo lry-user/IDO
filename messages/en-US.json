@@ -1,0 +1,493 @@
+{
+  "auth": {
+    "login": {
+      "title": "Login",
+      "email": "Email",
+      "email_placeholder": "Enter your email",
+      "password": "Password",
+      "password_placeholder": "Enter your password",
+      "forgot_password": "Forgot password",
+      "login_button": "Login",
+      "login_loading": "Logging in...",
+      "register_tip": "Don't have an account? Register",
+      "validation": {
+        "invalid_credentials": "Please enter valid email and password"
+      },
+      "appid_not_found": "Appid not found, please check network connection"
+    },
+    "jc": {
+      "forgot_password": "Forgot password",
+      "login_button": "Login with JuCoin Platform",
+      "login_loading": "Connecting to JuCoin...",
+      "login_error": "Login failed, please try again",
+      "missing_redirect_refer": "Missing redirect parameter",
+      "new_user_title": "Choose an Option",
+      "bind_title": "Bind Existing Account",
+      "email": "Email",
+      "email_placeholder": "Enter your email",
+      "password": "Password",
+      "password_placeholder": "Enter your password",
+      "verification_code": "Verification Code",
+      "code_placeholder": "Enter verification code",
+      "invite_code": "Invitation Code",
+      "invite_code_placeholder": "Enter invitation code",
+      "send_code": "Send",
+      "countdown": "{seconds}s",
+      "bind_button": "Bind Account",
+      "binding": "Binding...",
+      "bind_success": "Account successfully bound",
+      "bind_error": "Failed to bind account",
+      "register_button": "Register Account",
+      "registering": "Registering...",
+      "register_success": "Account successfully registered",
+      "register_error": "Failed to register account",
+      "code_sent": "Verification code sent",
+      "send_code_error": "Failed to send verification code",
+      "validation": {
+        "invalid_credentials": "Please enter valid email and password",
+        "invalid_input": "Please check your input and try again",
+        "email_required": "Please enter a valid email"
+      },
+      "appid_not_found": "Appid not found, please check network connection"
+    },
+    "register": {
+      "title": "Register",
+      "email": "Email",
+      "email_placeholder": "Enter your email",
+      "password": "Password",
+      "password_placeholder": "Enter your password",
+      "code": "Verification Code",
+      "code_placeholder": "Enter verification code",
+      "send_code": "Send",
+      "countdown": "{seconds}s",
+      "invite_code": "Invitation Code",
+      "invite_code_placeholder": "Enter invitation code",
+      "agreement": "By registering you agree to our",
+      "privacy_policy": "Privacy Policy",
+      "and": "and",
+      "service_agreement": "Terms of Service",
+      "register_button": "Register",
+      "register_loading": "Registering...",
+      "login_tip": "Already have an account? Login",
+      "success": "Registration successful",
+      "send_code_success": "Verification code sent successfully"
+    },
+    "reset_password": {
+      "title": "Reset Password",
+      "email": "Email",
+      "email_placeholder": "Enter your email",
+      "new_password": "New Password",
+      "new_password_placeholder": "Enter new password",
+      "code": "Verification Code",
+      "code_placeholder": "Enter verification code",
+      "send_code": "Send",
+      "countdown": "{seconds}s",
+      "confirm_button": "Confirm",
+      "login_tip": "Go to login"
+    }
+  },
+  "dashboard": {
+    "purchase": {
+      "insufficient_balance_tip": "Insufficient balance, recharge to <wallet>Wallet</wallet>?",
+      "not_logged_in": "User not logged in",
+      "invalid_amount": "Please enter a valid purchase amount",
+      "total_limit": "Total Purchase Limit",
+      "remaining_limit": "Remaining Limit",
+      "input_placeholder": "Enter USDT amount",
+      "max": "Max",
+      "exceeded_max": "Exceeded maximum purchase amount",
+      "energy_gain": "You will receive energy",
+      "buying": "BUYING...",
+      "buy": "BUY",
+      "usdt_balance": "USDT Balance",
+      "total_energy": "Total Energy Gained",
+      "expected_hi_token": "Expected Total Hi Token",
+      "token_rate": "x Output",
+      "buy_success": "Purchase Success"
+    },
+    "ido": {
+      "daily_ido": "Heaven Daily Energy IDO",
+      "login_button": "Login",
+      "energy": "Energy",
+      "not_started": "Hong Kong time: {date} Open",
+      "total_energy": "Total Energy Gained",
+      "estimated_tokens": "Estimated Total Hi Token",
+      "output": "x Output",
+      "ongoing": "Fundraising in progress...",
+      "ended": "Completed! Time taken: {minutes}m{seconds}s",
+      "coming_soon": "IDO officially launches on July 10th",
+      "coming_hi_soon": "Get excited is about to go live. Stay tuned"
+    },
+    "tip": {
+      "ido_tips": {
+        "title": "IDO Tips",
+        "total_energy": "Total energy release: 500 million",
+        "regardless_funding": "Whether fundraising is completed or not",
+        "token_lock": "500 million Hi tokens will be fully destroyed"
+      },
+      "ido_bonus": {
+        "title": "IDO Additional Benefits",
+        "team_income": "Team income H2 level",
+        "ieo_qualification": "Upcoming IEO qualification",
+        "lowest_price": "The energy you currently receive will be at the lowest historical price"
+      }
+    },
+    "ieo_coming_soon": "IEO Coming Soon"
+  },
+  "wallet": {
+    "title": "Wallet",
+    "recharge": "Recharge",
+    "withdraw": "Withdraw",
+    "record": "Record",
+    "myAssets": "My Assets",
+    "estimatedTotalAssets": "Estimated Total Assets",
+    "network": "Network",
+    "rechargeAddress": "Recharge address",
+    "minRechargeAmount": "Minimum Recharge Amount",
+    "networkConfirmations": "Network Confirmations",
+    "confirmationTimes": "15 times",
+    "minAmount": "1 USDT",
+    "saveQR": "Save Image",
+    "receive_address": "Receive Address",
+    "receive_address_placeholder": "Please enter the withdrawal receiving address",
+    "withdraw_network": "Withdrawal Network",
+    "withdraw_amount": "Withdrawal Amount",
+    "min_withdraw_amount": "Minimum Withdrawal Amount",
+    "network_confirm": "Network Confirm",
+    "available_balance": "Available Balance",
+    "withdraw_success": "Withdrawal Success",
+    "withdraw_failed": "Withdrawal Failed",
+    "please_fill_all_fields": "Please fill all fields",
+    "withdrawing": "Withdrawing...",
+    "no_records": "No Records",
+    "pending": "Pending",
+    "success": "Success",
+    "failed": "Failed",
+    "withdrawal_fee_rate": "Withdrawal Fee Rate",
+    "withdraw_error_text": "Withdrawal configuration acquisition failed, please try again later",
+    "user_password": "Please enter payment password",
+    "select_coin": "Select Coin",
+    "hi_reward": "Hi Reward",
+    "stake_reward": "Stake Reward",
+    "burn_reward": "Burn Reward",
+    "direct_reward": "Direct Reward",
+    "team_reward": "Team Reward",
+    "payment_password_not_set": "Payment password not set, ",
+    "set_payment_password": "Set Payment Password",
+    "payment_password_set_success": "Payment password set successfully"
+  },
+  "profile": {
+    "invite": {
+      "title": "Invite more friends",
+      "subtitle": "Earn more rewards",
+      "code": "Invitation Code",
+      "link": "Invitation Link",
+      "view_team": "My Team",
+      "player": "Invite Players",
+      "android_save_hint": "If the image didn't save automatically, tap and hold on the opened image to save it"
+    },
+    "stats": {
+      "boost": "Boost",
+      "reward": "Reward",
+      "claimed": "Claimed",
+      "pending_direct": "Pending Direct",
+      "expired_direct": "Expired Direct",
+      "remaining_time": "Remaining time for reward distribution",
+      "expired_direct_help": "When rewards are not issued, they will enter the pending state.",
+      "buy_help": "After purchasing any computing power node, the pending reward will be automatically issued.",
+      "time_units": {
+        "day": "d",
+        "hour": "h",
+        "minute": "m"
+      }
+    },
+    "nav": {
+      "wallet": "Wallet",
+      "order": "Order",
+      "record": "Record",
+      "settings": "Settings"
+    }
+  },
+  "common": {
+    "copySuccess": "Copy Success",
+    "copyFailed": "Copy Failed",
+    "saveQR": "Save QR Code",
+    "notices": {
+      "title": "Notices",
+      "no_notices": "No notices"
+    },
+    "go_home": "Back to Home",
+    "submitting": "Submitting..."
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "select_language": "Select Language",
+    "cancel": "Cancel",
+    "reset_password": "Reset Password",
+    "my_referrer": "My Referrer",
+    "logout": "Log out",
+    "feedback": "Feedback",
+    "reset_payment_password": "Reset Payment Password"
+  },
+  "team": {
+    "title": "My Team",
+    "direct": "Direct",
+    "team": "Team",
+    "no_members": "No Members",
+    "user_id": "User ID",
+    "level": "Level",
+    "total_burn_amount": "Total Burn Amount",
+    "team_size": "Team Size",
+    "team_total_burn_amount": "Team Total Burn Amount: {total_burn_amount}",
+    "direct_total_burn_amount": "Direct Total Burn Amount: {total_burn_amount}",
+    "24h_increase": "Personal Today Burn",
+    "team_total": "Team Total Burn",
+    "team_24h_total": "Team Today Burn",
+    "own_burn": "Personal Total Burn"
+  },
+  "orders": {
+    "title": "Order",
+    "copy_order_id": "Copy Order ID",
+    "no_orders": "No Orders",
+    "energy": "Energy"
+  },
+  "rewards": {
+    "title": "Rewards",
+    "promotion_rewards": "Promotion Rewards",
+    "mining_rewards": "Mining Rewards",
+    "today_reward": "Today Reward",
+    "total_reward": "Total Reward",
+    "direct_reward": "Direct Reward",
+    "indirect_reward": "Indirect Reward",
+    "team_reward": "Team Reward",
+    "mining_reward": "Mining Reward",
+    "no_rewards": "No Rewards"
+  },
+  "invite": {
+    "title": "Invite more friends",
+    "subtitle": "Earn more rewards",
+    "code": "Invitation Code",
+    "register": "Scan to register, create value, share the future",
+    "save_qr": "Save QR Code",
+    "error": "Save failed",
+    "android_save_hint": "If the image didn't save automatically, tap and hold on the opened image to save it or screenshot it"
+  },
+  "feedback": {
+    "title": "Feedback",
+    "title_placeholder": "Please enter the title",
+    "content": "Feedback Content",
+    "content_placeholder": "Please describe the problem you encountered in detail",
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "success": "Submit Success",
+    "error": "Submit Failed",
+    "validation": {
+      "required": "Please fill in all information"
+    }
+  },
+  "validation": {
+    "email": {
+      "required": "Email is required",
+      "invalid": "Please enter a valid email"
+    },
+    "password": {
+      "required": "Password is required",
+      "min": "Password must be at least {length} characters"
+    },
+    "code": {
+      "required": "Verification code is required",
+      "invalid": "Please enter a valid verification code"
+    },
+    "invite_code": {
+      "required": "Invitation code is required",
+      "min": "Invitation code must be at least {length} characters"
+    }
+  },
+  "error": {
+    "token_expired": "Login expired, please log in again",
+    "error": "Error",
+    "sessionExpired": "Session Expired",
+    "pleaseLoginAgain": "Please login again",
+    "unknownError": "An unknown error occurred",
+    "backToHome": "Back to Home"
+  },
+  "ieo": {
+    "title": "Hi IEO",
+    "login_button": "Login",
+    "info": {
+      "price": "Purchase Price",
+      "totalSupply": "Token Distribution",
+      "targetAmount": "Target Amount",
+      "totalSubscription": "Total Subscription",
+      "multiple": "Subscription Multiple",
+      "billion": "Billion",
+      "hundredMillion": "Hundred Million",
+      "tenThousand": "Ten Thousand"
+    },
+    "countdown": {
+      "title": "Countdown",
+      "startAt": "Starts at {time}",
+      "end": "Ends at {time}"
+    },
+    "purchase": {
+      "inputPlaceholder": "{min} - {max}",
+      "maxButton": "Max",
+      "buyButton": "BUY",
+      "processing": "Processing...",
+      "balance": "USDT Balance",
+      "mySubscription": "My Subscription",
+      "ratio": "Distribution Ratio",
+      "estimatedFee": "Estimated Fee",
+      "estimatedReward": "Estimated Reward",
+      "locked": "(Locked)",
+      "ratio_description": "(My Subscription/Total Subscription)",
+      "estimatedFee_description": "(Distribution Ratio * Target Amount)",
+      "estimatedReward_description": "(Estimated Fee / Token Price)"
+    },
+    "messages": {
+      "invalidAmount": "Please enter a valid amount",
+      "insufficientBalance": "Insufficient balance",
+      "purchaseSuccess": "Purchase successful",
+      "purchaseFailed": "Purchase failed: {error}",
+      "unknownError": "Unknown error"
+    }
+  },
+  "finance": {
+    "global_participation": "Global Participation (Burn + Stake)",
+    "query_black_hole": "Query Burn Black Hole",
+    "contract_address": "Hi Contract Address",
+    "title": {
+      "universe": "Hi Universe",
+      "personal": "Personal",
+      "team": "Team",
+      "chart": "Chart",
+      "hi_universe_records": "Hi Universe Records",
+      "personal_earnings_records": "Personal Earnings Records",
+      "team_earnings_records": "Team Earnings Records",
+      "earn": "Earn",
+      "hieco": "Hi Eco",
+      "mine": "Mine"
+    },
+    "team_claimed_amount": "Produced: {totalAmount}Hi",
+    "team_my_level": "My Level: H{level}",
+    "team_my_level_lable": "My Level: ",
+    "team_my_level_value": "H{level}",
+    "total_earnings": "Total Earnings",
+    "claim": "Claim",
+    "claiming": "Claiming...",
+    "over_percentage": "Over {percentage}% of people",
+    "over_year_rate": "Over Year Rate (Max {max}x)",
+    "year_rate": "Year Rate",
+    "stake": "Stake",
+    "stake_days": "Stake {days} Days",
+    "unstaked": "Unstaked",
+    "burn": "Burn",
+    "no_records": "No Records",
+    "time": "Time",
+    "type": "Type",
+    "amount": "Amount",
+    "expired_at": "(Expires on {date} {time})",
+    "burned": "Burned",
+    "team_total_income": "Team Total Income",
+    "limit": "Limit",
+    "quota": "Quota",
+    "team_income_limit_desc": "(Quota = My Expected Burn Total)",
+    "team_income_limit_desc_2": "(Produced = My Produced Burn Earnings + Direct Burn Income + Team Burn Income)",
+    "own_total_income": "My Claimed Burn Earnings",
+    "direct_burn_income": "Direct Burn Income",
+    "direct_burn_income_desc": "(5% of Team Members' Burned Hi)",
+    "direct_referrals": "Direct Referrals",
+    "view": "View",
+    "people": " People",
+    "pending_direct_income": "Pending Direct Income",
+    "real_time_income_no_fee": "Real-time Income, {fee}% Fee",
+    "team_burn_income": "Team Burn Income",
+    "my_level": "My Level",
+    "level_info": "Level Info",
+    "team_members": "Team Members",
+    "pending_team_income": "Pending Team Income",
+    "daily_income_with_fee": "Daily Output at 15:00, 10% Fee",
+    "records": "Records",
+    "direct_profit_records": "Direct Profit Records",
+    "team_profit_records": "Team Profit Records",
+    "user_id": "User ID",
+    "hi_burn_amount": "Hi Burn Amount",
+    "earnings": "Earnings",
+    "level": "Level",
+    "daily_hi_output": "Daily Hi Output",
+    "stake_form": {
+      "record": "Record",
+      "title": "Stake",
+      "burn_title": "Burn",
+      "input_stake": "Enter stake Hi amount",
+      "input_burn": "Enter burn Hi amount",
+      "max_button": "Max",
+      "daily_output": "Daily Output",
+      "total_output": "Total Output",
+      "submit": "Submit",
+      "processing": "Processing...",
+      "success": "Operation successful",
+      "error": "Operation failed",
+      "invalid_amount": "Please enter a valid amount",
+      "insufficient_balance_tip": "Insufficient balance, recharge to <wallet>Wallet</wallet>?",
+      "min_amount": "Please enter a number greater than {min}"
+    },
+    "chart": {
+      "burn_reward_earned": "Burn Reward Earned",
+      "stake_reward_earned": "Stake Reward Earned",
+      "direct_burn_amount_earned": "Direct Burn Amount Earned",
+      "team_burn_reward_earned": "Team Burn Reward Earned"
+    },
+    "personal": {
+      "burn_total_earnings": "Burn Total Earnings",
+      "stake_total_earnings": "Stake Total Earnings",
+      "burned": "Burned",
+      "pending_burn": "Pending Burn",
+      "claimed_burn": "Claimed Burn",
+      "staking": "Staking",
+      "pending_stake": "Pending Stake",
+      "claimed_stake": "Claimed Stake",
+      "subtitle": "Daily 15:00 output, {fee}% fee",
+      "stake_subtitle_2": "(Auto Unstake at maturity)",
+      "burn_reward": "Burn Reward",
+      "stake_reward": "Stake Reward",
+      "direct_reward": "Direct Reward",
+      "team_reward": "Team Reward",
+      "pending": "Pending",
+      "claimed": "Claimed"
+    },
+    "earn_date": "Earn Date",
+    "claimed_time": "Claimed Time",
+    "not_claimed": "Not Claimed",
+    "stay_tuned": "Stay Tuned",
+    "contact_us": "CONTACT US",
+    "earn": {
+      "total_earnings": "Total Earnings",
+      "personal_earnings": "Personal Earnings",
+      "team_earnings": "Team Earnings",
+      "click_to_view": "Click to View"
+    },
+    "wechat_modal": {
+      "title": "WeChat QR Code",
+      "scan_prompt": "Scan QR code to add WeChat friend"
+    },
+    "game": {
+      "sections": {
+        "ido": "IDO",
+        "game": "GAME",
+        "social": "SOCIAL"
+      },
+      "hi_ecosystem_group": "Hi Ecosystem Group",
+      "contact_service": "Contact Service"
+    }
+  },
+  "feedbackButton": {
+    "open": "Open WeChat Customer Service",
+    "hide": "Hide Button",
+    "title": "WeChat Customer Service QR Code",
+    "scan_prompt": "Scan the QR code to contact the customer service",
+    "qr_url_missing": "No customer service link provided",
+    "close": "Close"
+  }
+}

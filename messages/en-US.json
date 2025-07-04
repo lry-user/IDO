@@ -358,7 +358,7 @@
     "query_black_hole": "Query Burn Black Hole",
     "contract_address": "Hi Contract Address",
     "title": {
-      "universe": "Hi Universe",
+      "universe": "IDO",
       "personal": "Personal",
       "team": "Team",
       "chart": "Chart",
@@ -367,7 +367,7 @@
       "team_earnings_records": "Team Earnings Records",
       "earn": "Earn",
       "hieco": "Hi Eco",
-      "mine": "Mine"
+      "mine": "My assets"
     },
     "team_claimed_amount": "Produced: {totalAmount}Hi",
     "team_my_level": "My Level: H{level}",

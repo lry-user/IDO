@@ -4,7 +4,8 @@ import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
-import { Home } from "lucide-react";
+import Image from "next/image";
+
 
 export function IncomeTabs() {
   const t = useTranslations("finance");
@@ -76,16 +77,14 @@ export function BottomTabs() {
   backdropFilter: "blur(10px)", }}>
       <div className="flex justify-around items-center">
         <Link href="/" prefetch className="flex flex-col items-center">
-          <Home 
-            size={22} 
-            className={cn(
-              "mb-1",
-              isPathActive("/") ? "text-[#00F6F6]" : "text-white"
-            )}
-          />
+        {isPathActive("/") ? (
+          <Image src="/images/homeido_action.png" alt="homeido_action" width={28} height={28} />
+        ) : (
+          <Image src="/images/homeido.png" alt="homeido" width={28} height={28} />
+        )}
           <span 
             className={cn(
-              "text-[10px]",
+              "text-[12px]",
               isPathActive("/") ? "text-[#00F6F6]" : "text-white"
             )}
           >
@@ -93,88 +92,112 @@ export function BottomTabs() {
           </span>
         </Link>
         
-        <Link href="/earn" prefetch className="flex flex-col items-center">
-          <svg 
-            width="22"
-            height="22"
-            viewBox="0 0 16 16"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className={cn(
-              "mb-1",
-              isPathActive("/earn") ? "stroke-[#00F6F6]" : "stroke-white"
-            )}>
-            <path d="M1.7618 13.2194C2.52295 13.9812 3.74885 13.9812 6.2 13.9812H8.8C11.2511 13.9812 12.477 13.9812 13.2382 13.2194C13.9993 12.4576 14 11.2324 14 8.7812C14 8.0207 14 7.3785 13.9772 6.8312M13.2382 4.343C12.477 3.5812 11.2511 3.5812 8.8 3.5812H6.2C3.74885 3.5812 2.52295 3.5812 1.7618 4.343C1.00065 5.1048 1 6.33005 1 8.7812C1 9.5417 1 10.1839 1.02275 10.7312M7.5 0.981201C8.7259 0.981201 9.3382 0.981201 9.7191 1.3621C10.1 1.743 10.1 2.3553 10.1 3.5812M5.2809 1.3621C4.9 1.743 4.9 2.3553 4.9 3.5812M7.5 10.9477C8.21825 10.9477 8.8 10.4628 8.8 9.86475C8.8 9.26675 8.21825 8.7812 7.5 8.7812C6.78175 8.7812 6.2 8.2963 6.2 7.69765C6.2 7.09965 6.78175 6.61475 7.5 6.61475M7.5 10.9477C6.78175 10.9477 6.2 10.4628 6.2 9.86475M7.5 10.9477V11.3812M7.5 6.61475V6.1812M7.5 6.61475C8.21825 6.61475 8.8 7.09965 8.8 7.69765" stroke-linecap="round"/>
-          </svg>
-          <span 
-            className={cn(
-              "text-[10px]",
-              isPathActive("/earn") ? "text-[#00F6F6]" : "text-white"
-            )}
-          >
-            {t("title.earn")}
-          </span>
-        </Link>
-
-        {/* /personal */}
-        {/* /team */}
-        {/* /chart */}
-        <Link href="/game" prefetch className="flex flex-col items-center">
-          {/* <Users 
-            size={22} 
-            className={cn(
-              "mb-1",
-              isPathActive("/team") ? "text-[#00F6F6]" : "text-white"
-            )}
-          /> */}
-          <svg
-            width="22"
-            height="22"
-            viewBox="0 0 16 16" 
-            fill="none" 
-            xmlns="http://www.w3.org/2000/svg"
-            className={cn(
-              "mb-1",
-              isPathActive("/game") ? "stroke-[#00F6F6]" : "stroke-white"
-            )}
-          >
-            <path d="M7.5 7.4812L7.4961 7.4851M14 7.4812C14 3.89125 11.0899 0.981201 7.5 0.981201C3.91005 0.981201 1 3.89125 1 7.4812C1 11.0712 3.91005 13.9812 7.5 13.9812C11.0899 13.9812 14 11.0712 14 7.4812ZM7.76065 5.0749L9.65865 4.44245C10.2346 4.25005 10.5232 4.1545 10.6753 4.30595C10.8267 4.45805 10.7311 4.746 10.5387 5.32255L9.9063 7.22055C9.57935 8.20205 9.41555 8.6928 9.06325 9.04445C8.7116 9.39675 8.22085 9.56055 7.23935 9.8875L5.34135 10.52C4.7648 10.7124 4.47685 10.8086 4.32475 10.6565C4.17265 10.5044 4.26885 10.2158 4.46125 9.63985L5.0937 7.74185C5.42065 6.76035 5.58445 6.2696 5.93675 5.91795C6.2884 5.56565 6.77915 5.40185 7.76065 5.0749Z" stroke-linecap="round" />
-          </svg>
-          <span 
-            className={cn(
-              "text-[10px]",
-              isPathActive("/game") ? "text-[#00F6F6]" : "text-white"
-            )}
-          >
-            {t("title.hieco")}
-          </span>
-        </Link>
-        
         <Link href="/profile" prefetch className="flex flex-col items-center">
-          {/* <BarChart3 
-            size={22} 
-            className={cn(
-              "mb-1",
-              isPathActive("/chart") ? "text-[#00F6F6]" : "text-white"
-            )}
-          /> */}
-          <svg
-            width="22"
-            height="22"
-            viewBox="0 0 16 16"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className={cn(
-              "mb-1",
-              isPathActive("/profile") ? "stroke-[#00F6F6]" : "stroke-white"
-            )}
-          >
-              <path d="M7.5 6.03676C7.83195 6.03676 8.16065 5.97137 8.46734 5.84434C8.77402 5.71731 9.05268 5.53111 9.28741 5.29639C9.52214 5.06166 9.70833 4.783 9.83536 4.47632C9.9624 4.16963 10.0278 3.84093 10.0278 3.50898C10.0278 3.17703 9.9624 2.84832 9.83536 2.54164C9.70833 2.23496 9.52214 1.9563 9.28741 1.72157C9.05268 1.48684 8.77402 1.30065 8.46734 1.17362C8.16065 1.04658 7.83195 0.981201 7.5 0.981201C6.82959 0.981201 6.18664 1.24752 5.71259 1.72157C5.23854 2.19562 4.97222 2.83857 4.97222 3.50898C4.97222 4.17939 5.23854 4.82234 5.71259 5.29639C6.18664 5.77044 6.82959 6.03676 7.5 6.03676ZM1 13.5479V13.9812H14V13.5479C14 11.9301 14 11.1212 13.6851 10.503C13.4081 9.95942 12.9662 9.5175 12.4227 9.24054C11.8044 8.92565 10.9956 8.92565 9.37778 8.92565H5.62222C4.00444 8.92565 3.19556 8.92565 2.57733 9.24054C2.03378 9.5175 1.59185 9.95942 1.31489 10.503C1 11.1212 1 11.9301 1 13.5479Z" stroke-linecap="round"/>
-          </svg>
-
+          {isPathActive("/profile") ? (
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 56 56">
+              <defs>
+                <style>{`
+                  .a{fill:none;}
+                  .b{fill:#fac600;}
+                  .c{fill:#9ff;}
+                  .d{fill:#1e81ce;}
+                  .e{fill:#0082aa;}
+                `}</style>
+              </defs>
+              <g transform="translate(-273.633 -457.633)">
+                <rect className="a" width="56" height="56" transform="translate(273.633 457.633)"/>
+                <g transform="translate(267.415 445.019)">
+                  <g transform="translate(9.631 16.519)">
+                    <g transform="translate(14.752 0)">
+                      <g transform="translate(5.901 5.901)">
+                        <path className="b" d="M44.884,19.967h-5.9a.983.983,0,0,1,0-1.967h5.9a.983.983,0,0,1,0,1.967Z" transform="translate(-38 -18)"/>
+                      </g>
+                      <g transform="translate(5.639 0)">
+                        <path className="c" d="M43.9,17.9l1.9-2.843A1.967,1.967,0,0,0,44.155,12H39.7a1.967,1.967,0,0,0-1.636,3.058l1.9,2.843Z" transform="translate(-37.734 -12)"/>
+                      </g>
+                      <g transform="translate(0 7.868)">
+                        <path className="c" d="M49.7,39.669H33.967A1.966,1.966,0,0,1,32,37.7V27.868A7.868,7.868,0,0,1,39.868,20H43.8a7.868,7.868,0,0,1,7.868,7.868V37.7A1.966,1.966,0,0,1,49.7,39.669Z" transform="translate(-32 -20)"/>
+                      </g>
+                    </g>
+                    <g transform="translate(0 30.487)">
+                      <g transform="translate(0 0)">
+                        <g transform="translate(0 1.967)">
+                          <path className="d" d="M13.835,44H5.967A1.966,1.966,0,0,0,4,45.967v11.8a1.966,1.966,0,0,0,1.967,1.967h7.868A1.966,1.966,0,0,0,15.8,57.768v-11.8A1.966,1.966,0,0,0,13.835,44Z" transform="translate(-4 -44)"/>
+                        </g>
+                        <g transform="translate(4.138 10.289)">
+                          <circle className="e" cx="2.152" cy="2.152" r="2.152" transform="translate(0 0)"/>
+                        </g>
+                        <g transform="translate(4.138 9.213)">
+                          <circle className="c" cx="2.152" cy="2.152" r="2.152" transform="translate(0 0)"/>
+                        </g>
+                        <g transform="translate(11.801)">
+                          <path className="c" d="M50.421,42.983a2.941,2.941,0,0,0-2.086.864l-7.988,7.987H36.653a2.95,2.95,0,1,0,0-5.9H31.735l-1.63-1.63A7.868,7.868,0,0,0,24.542,42h-1.35a7.868,7.868,0,0,0-5.563,2.3L16,45.934v11.8H41.57a2.942,2.942,0,0,0,2.087-.864l8.85-8.85a2.951,2.951,0,0,0-2.086-5.037Z" transform="translate(-16 -42)"/>
+                        </g>
+                      </g>
+                      <g transform="translate(23.603 9.835)">
+                        <path className="d" d="M28.492,52a.492.492,0,0,0,0,.983h8.359A3.9,3.9,0,0,0,39.426,52Z" transform="translate(-28 -52)"/>
+                      </g>
+                    </g>
+                    <path className="d" d="M43.851,29.469,40.639,28.4a.98.98,0,0,1-.672-.932v-.55a.984.984,0,0,1,.983-.983h1.967a.984.984,0,0,1,.983.983.983.983,0,1,0,1.967,0,2.954,2.954,0,0,0-2.95-2.95v-.983a.983.983,0,0,0-1.967,0v.983A2.954,2.954,0,0,0,38,26.917v.55a2.947,2.947,0,0,0,2.017,2.8l3.212,1.07a.98.98,0,0,1,.672.932v.55a.984.984,0,0,1-.983.983H40.95a.984.984,0,0,1-.983-.983.983.983,0,0,0-1.967,0,2.954,2.954,0,0,0,2.95,2.95v.983a.983.983,0,0,0,1.967,0v-.983a2.954,2.954,0,0,0,2.95-2.95v-.55A2.947,2.947,0,0,0,43.851,29.469Z" transform="translate(-17.347 -12.165)"/>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          ) : (
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 56 56">
+              <defs>
+                <style>{`
+                  .a{fill:none;}
+                  .b{fill:#646b71;}
+                  .c{fill:#c9c9c9;}
+                  .d{fill:#969696;}
+                  .e{fill:#d8d8d8;}
+                  .f{fill:#848484;}
+                `}</style>
+              </defs>
+              <g transform="translate(-273.633 -457.633)">
+                <rect className="a" width="56" height="56" transform="translate(273.633 457.633)"/>
+                <g transform="translate(267.415 445.019)">
+                  <g transform="translate(9.631 16.519)">
+                    <g transform="translate(14.752 0)">
+                      <g transform="translate(5.901 5.901)">
+                        <path className="b" d="M44.884,19.967h-5.9a.983.983,0,0,1,0-1.967h5.9a.983.983,0,0,1,0,1.967Z" transform="translate(-38 -18)"/>
+                      </g>
+                      <g transform="translate(5.639 0)">
+                        <path className="c" d="M43.9,17.9l1.9-2.843A1.967,1.967,0,0,0,44.155,12H39.7a1.967,1.967,0,0,0-1.636,3.058l1.9,2.843Z" transform="translate(-37.734 -12)"/>
+                      </g>
+                      <g transform="translate(0 7.868)">
+                        <path className="c" d="M49.7,39.669H33.967A1.966,1.966,0,0,1,32,37.7V27.868A7.868,7.868,0,0,1,39.868,20H43.8a7.868,7.868,0,0,1,7.868,7.868V37.7A1.966,1.966,0,0,1,49.7,39.669Z" transform="translate(-32 -20)"/>
+                      </g>
+                    </g>
+                    <g transform="translate(0 30.487)">
+                      <g transform="translate(0 0)">
+                        <g transform="translate(0 1.967)">
+                          <path className="d" d="M13.835,44H5.967A1.966,1.966,0,0,0,4,45.967v11.8a1.966,1.966,0,0,0,1.967,1.967h7.868A1.966,1.966,0,0,0,15.8,57.768v-11.8A1.966,1.966,0,0,0,13.835,44Z" transform="translate(-4 -44)"/>
+                        </g>
+                        <g transform="translate(4.138 10.289)">
+                          <circle className="d" cx="2.152" cy="2.152" r="2.152" transform="translate(0 0)"/>
+                        </g>
+                        <g transform="translate(4.138 9.213)">
+                          <circle className="e" cx="2.152" cy="2.152" r="2.152" transform="translate(0 0)"/>
+                        </g>
+                        <g transform="translate(11.801)">
+                          <path className="c" d="M50.421,42.983a2.941,2.941,0,0,0-2.086.864l-7.988,7.987H36.653a2.95,2.95,0,1,0,0-5.9H31.735l-1.63-1.63A7.868,7.868,0,0,0,24.542,42h-1.35a7.868,7.868,0,0,0-5.563,2.3L16,45.934v11.8H41.57a2.942,2.942,0,0,0,2.087-.864l8.85-8.85a2.951,2.951,0,0,0-2.086-5.037Z" transform="translate(-16 -42)"/>
+                        </g>
+                      </g>
+                      <g transform="translate(23.603 9.835)">
+                        <path className="f" d="M28.492,52a.492.492,0,0,0,0,.983h8.359A3.9,3.9,0,0,0,39.426,52Z" transform="translate(-28 -52)"/>
+                      </g>
+                    </g>
+                    <path className="f" d="M43.851,29.469,40.639,28.4a.98.98,0,0,1-.672-.932v-.55a.984.984,0,0,1,.983-.983h1.967a.984.984,0,0,1,.983.983.983.983,0,1,0,1.967,0,2.954,2.954,0,0,0-2.95-2.95v-.983a.983.983,0,0,0-1.967,0v.983A2.954,2.954,0,0,0,38,26.917v.55a2.947,2.947,0,0,0,2.017,2.8l3.212,1.07a.98.98,0,0,1,.672.932v.55a.984.984,0,0,1-.983.983H40.95a.984.984,0,0,1-.983-.983.983.983,0,0,0-1.967,0,2.954,2.954,0,0,0,2.95,2.95v.983a.983.983,0,0,0,1.967,0v-.983a2.954,2.954,0,0,0,2.95-2.95v-.55A2.947,2.947,0,0,0,43.851,29.469Z" transform="translate(-17.347 -12.165)"/>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          )}
           <span 
             className={cn(
-              "text-[10px]",
+              "text-[12px]",
               isPathActive("/profile") ? "text-[#00F6F6]" : "text-white"
             )}
           >

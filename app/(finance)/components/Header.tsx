@@ -16,7 +16,7 @@ export function Header() {
   // }
 
   return (
-    <header className="flex flex-col p-4 pb-0">
+    <header className="flex flex-col px-4 pb-0 bg-[#000000]">
       <div className="flex items-center justify-between">
         <div className="flex items-center">
           <Image

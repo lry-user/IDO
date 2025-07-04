@@ -358,7 +358,7 @@
     "query_black_hole": "查詢銷毀黑洞",
     "contract_address": "Hi 合約地址",
     "title": {
-      "universe": "Hi 宇宙",
+      "universe": "IDO",
       "personal": "個人收益",
       "team": "戰隊收益",
       "chart": "收益圖譜",
@@ -367,7 +367,7 @@
       "team_earnings_records": "戰隊收益記錄",
       "earn": "賺",
       "hieco": "Hi 生態",
-      "mine": "我的"
+      "mine": "我的资产"
     },
     "team_claimed_amount": "已產出: {totalAmount}Hi",
     "team_my_level": "我的等級: H{level}",

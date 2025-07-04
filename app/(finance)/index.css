@@ -1,0 +1,53 @@
+#ido{
+  background: linear-gradient(342.46deg, #2F0061 0%, #120015 50.68%, #240022 72.43%, #550781 100%);
+
+}
+.gift-btn{
+  background: linear-gradient(90deg, #00E6FF 0%, #56AAEF 36.06%, #A858E5 100%);
+  padding: 10px 20px;
+}
+.table-underline{
+  position: relative;
+}
+.table-underline::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -20px;
+  right: -20px;
+
+  border-bottom: 1px solid #59e5e2;
+}
+.node-select{
+  padding: 5px 14px;
+}
+.node-type{
+  padding: 5px 12px;
+  border-radius: 6px;
+  color:#FFFFFF99;
+  transition: all 0.3s ease-in-out;
+  font-weight: 600;
+  font-size: 14px;
+}
+.node-type.active{
+  background-color: #59E5E2;
+  color: #001537
+}
+.dialog-content {
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #18171C;
+  padding:8px 16px 20px;
+  border-radius: 20px;
+  z-index: 100;
+  width: 300px;
+}
+
+.dialog-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+}

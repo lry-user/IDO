@@ -19,19 +19,19 @@
   border-bottom: 1px solid #59e5e2;
 }
 .node-select{
-  padding: 5px 14px;
+  padding: 3px;
 }
 .node-type{
-  padding: 5px 12px;
-  border-radius: 6px;
-  color:#FFFFFF99;
+  padding: 8px 28px;
+  border-radius: 26px;
+  color:#8B8B8B;
   transition: all 0.3s ease-in-out;
   font-weight: 600;
   font-size: 14px;
 }
 .node-type.active{
-  background-color: #59E5E2;
-  color: #001537
+  background-color: #1D81CE;
+  color: #FFFFFF;
 }
 .dialog-content {
   position: fixed;

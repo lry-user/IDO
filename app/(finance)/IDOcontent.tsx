@@ -296,7 +296,7 @@ const IdoContent = ({ teamInfo }: IdoContentProps) => {
 
         <div className="mt-3">
           {/* 铂金 钻石 超级 */}
-          <div className="flex items-center justify-between border border-[#57515F] rounded-xl node-select">
+          <div className="flex items-center justify-between border border-[#57515F] rounded-3xl bg-[#18171C] node-select">
             <div
               className={
                 "node-type " + (nodeType === "PLATINUM_NODE" ? "active" : "")
@@ -324,7 +324,7 @@ const IdoContent = ({ teamInfo }: IdoContentProps) => {
           </div>
         </div>
         {/* 卡片 */}
-        <div className="mt-2 border border-[#57515F] bg-[#18171C] rounded-[18px] py-4 px-5 w-full mx-4">
+        <div className="mt-2 border border-[#707070] bg-[#18171C] rounded-[10px] py-4 px-5 w-full mx-4">
           <div className="text-white text-xs leading-3 text-left tracking-wider">
             Hi
             {nodeTypeMap[nodeType]}
@@ -387,7 +387,7 @@ const IdoContent = ({ teamInfo }: IdoContentProps) => {
           <div className="mt-2.5 text-center">
             <span
               className={
-                "buy-btn py-2 px-6 rounded-lg bg-[#59E5E2] text-black text-xs font-bold" +
+                "buy-btn py-3 px-10 rounded-3xl bg-[#1D81CE] text-[#FFFFFF] text-xs font-bold" +
                 (hasBuy ? "buy-btn-ed" : "")
               }
               style={{
@@ -467,69 +467,91 @@ const IdoContent = ({ teamInfo }: IdoContentProps) => {
           </div>
         </div>
         {/* 卡片 */}
-        <div className="mt-4 border border-[#57515F] bg-[#18171C] rounded-[18px] py-4 px-5 w-full mx-4 ">
+        <div className="mt-4 border border-[#57515F] bg-[#18171C] rounded-[10px] py-4 px-5 w-full mx-4 ">
           <div className="text-white text-xs leading-4 text-left flex items-center">
-            <span className="w-[2.5px] h-[9px] bg-[#59E5E2] mr-1"></span>
-            铂金节点权益
+            {/* <span className="w-[2.5px] h-[9px] bg-[#59E5E2] mr-1"></span> */}
+            <Image
+              src="/images/bojin.png"
+              alt="bojin"
+              width={30}
+              height={30}
+            />
+            <div className="text-[0.875rem] ml-1">
+              铂金节点权益
+            </div>
           </div>
           <div className="text-[#59E5E2] text-xs leading-4 mt-2 flex items-center">
-            <span className="w-[13px] h-[13px] ml-1 flex items-center justify-center rounded-full text-[#0B0B0B] bg-[#59E5E2] text-xs mr-2">
+            <span className="w-[13px] h-[13px] ml-1 flex items-center justify-center rounded-full text-[##00FFFB] border border-[#00FFFB] text-xs mr-2">
               1
             </span>
-            价值500U的JU算力
+            价值200U的JU算力
           </div>
           <div className="text-[#59E5E2] text-xs leading-4 mt-2 flex items-center">
-            <span className="w-[13px] h-[13px] ml-1 flex items-center justify-center rounded-full text-[#0B0B0B] bg-[#59E5E2] text-xs mr-2">
+            <span className="w-[13px] h-[13px] ml-1 flex items-center justify-center rounded-full text-[##00FFFB] border border-[#00FFFB] text-xs mr-2">
               2
             </span>
             HI生态收益分红
           </div>
           <div className="mt-5 text-white text-xs leading-4 text-left flex items-center">
-            <span className="w-[2.5px] h-[9px] bg-[#59E5E2] mr-1"></span>
-            钻石节点权益
+            <Image
+              src="/images/zuanshi.png"
+              alt="zuanshi"
+              width={30}
+              height={30}
+            />
+              <div className="text-[0.875rem] ml-1">
+                钻石节点权益
+              </div>
           </div>
           <div className="text-[#59E5E2] text-xs leading-4 mt-2 flex items-center">
-            <span className="w-[13px] h-[13px] ml-1 flex items-center justify-center rounded-full text-[#0B0B0B] bg-[#59E5E2] text-xs mr-2">
+            <span className="w-[13px] h-[13px] ml-1 flex items-center justify-center rounded-full text-[##00FFFB] border border-[#00FFFB] text-xs mr-2">
               1
             </span>
             价值1000U的JU算力
           </div>
           <div className="text-[#59E5E2] text-xs leading-4 mt-2 flex items-center">
-            <span className="w-[13px] h-[13px] ml-1 flex items-center justify-center rounded-full text-[#0B0B0B] bg-[#59E5E2] text-xs mr-2">
+            <span className="w-[13px] h-[13px] ml-1 flex items-center justify-center rounded-full text-[##00FFFB] border border-[#00FFFB] text-xs mr-2">
               2
             </span>
             HI生态收益分红
           </div>
           <div className="text-[#59E5E2] text-xs leading-4 mt-2.5 flex items-center">
-            <span className="w-[13px] h-[13px] ml-1 flex items-center justify-center rounded-full text-[#0B0B0B] bg-[#59E5E2] text-xs mr-2">
+            <span className="w-[13px] h-[13px] ml-1 flex items-center justify-center rounded-full text-[##00FFFB] border border-[#00FFFB] text-xs mr-2">
               3
             </span>
             嗨起来提现手续费分红
           </div>
           <div className="mt-5 text-white text-xs leading-4 text-left flex items-center">
-            <span className="w-[2.5px] h-[9px] bg-[#59E5E2] mr-1"></span>
-            超级节点权益
+          <Image
+              src="/images/chaoji.png"
+              alt="chaoji"
+              width={30}
+              height={30}
+            />
+              <div className="text-[0.875rem] ml-1">
+                超级节点权益
+              </div>
           </div>
           <div className="text-[#59E5E2] text-xs leading-4 mt-2 flex items-center">
-            <span className="w-[13px] h-[13px] ml-1 flex items-center justify-center rounded-full text-[#0B0B0B] bg-[#59E5E2] text-xs mr-2">
+            <span className="w-[13px] h-[13px] ml-1 flex items-center justify-center rounded-full text-[##00FFFB] border border-[#00FFFB] text-xs mr-2">
               1
             </span>
             价值5000U的JU算力
           </div>
           <div className="text-[#59E5E2] text-xs leading-4 mt-2 flex items-center">
-            <span className="w-[13px] h-[13px] ml-1 flex items-center justify-center rounded-full text-[#0B0B0B] bg-[#59E5E2] text-xs mr-2">
+            <span className="w-[13px] h-[13px] ml-1 flex items-center justify-center rounded-full text-[##00FFFB] border border-[#00FFFB] text-xs mr-2">
               2
             </span>
             HI生态收益分红
           </div>
           <div className="text-[#59E5E2] text-xs leading-4 mt-2 flex items-center">
-            <span className="w-[13px] h-[13px] ml-1 flex items-center justify-center rounded-full text-[#0B0B0B] bg-[#59E5E2] text-xs mr-2">
+            <span className="w-[13px] h-[13px] ml-1 flex items-center justify-center rounded-full text-[##00FFFB] border border-[#00FFFB] text-xs mr-2">
               3
             </span>
             HI DAO基金会分红
           </div>
           <div className="text-[#59E5E2] text-xs leading-4 mt-2.5 flex items-center">
-            <span className="w-[13px] h-[13px] ml-1 flex items-center justify-center rounded-full text-[#0B0B0B] bg-[#59E5E2] text-xs mr-2">
+            <span className="w-[13px] h-[13px] ml-1 flex items-center justify-center rounded-full text-[##00FFFB] border border-[#00FFFB] text-xs mr-2">
               4
             </span>
             嗨起来提现手续费分红
@@ -537,40 +559,70 @@ const IdoContent = ({ teamInfo }: IdoContentProps) => {
         </div>
         {/* 战队 */}
         <div className="mt-7 w-full">
-          <div className="text-xl font-bold leading-5 text-[#59E5E2] text-center">
+          {/* <div className="text-xl font-bold leading-5 text-[#59E5E2] text-center">
             战队成员
-          </div>
+          </div> */}
           {/* info */}
-          <div className="border mt-3 border-[#57515F] rounded-xl pb-1.5 px-5.5 pt-4 bg-[#18171C] flex items-center justify-between">
-            <div className="flex items-center flex-1 flex-col">
-              <span className="text-white text-sm font-semibold leading-3.5">
-                铂金节点
-              </span>
-              <span className="text-[#04FFA7] text-lg font-semibold mt-3">
-                {teamInfo?.n1Count || 0}
-              </span>
-            </div>
-            <div className="flex items-center flex-1 flex-col">
-              <span className="text-white text-sm font-semibold leading-3.5">
-                钻石节点
-              </span>
-              <span className="text-[#04FFA7] text-lg font-semibold mt-3">
-                {teamInfo?.n2Count || 0}
-              </span>
-            </div>
-            <div className="flex items-center flex-1 flex-col">
-              <span className="text-white text-sm font-semibold leading-3.5">
-                超级节点
-              </span>
-              <span className="text-[#04FFA7] text-lg font-semibold mt-3">
-                {teamInfo?.n3Count || 0}
-              </span>
+          <div className="border mt-3 border-[#707070] rounded-[10px] pb-1.5 px-5.5 pt-4 bg-[#18171C]">
+            <div className="text-sm">
+              战队成员
+            </div> 
+            <div className="flex items-center justify-between">
+              <div className="flex items-center flex-1 flex-col">
+                <div className="flex items-center">
+                  <Image
+                    src="/images/bojin.png"
+                    alt="bojin"
+                    width={30}
+                    height={30}
+                  />
+                  <span className="text-white text-sm font-semibold leading-3.5 ml-1">
+                    铂金节点
+                  </span>
+                </div>
+                
+                <span className="text-[#00FFFB] text-[1.5rem] font-semibold mt-3">
+                  {teamInfo?.n1Count || 0}
+                </span>
+              </div>
+              <div className="flex items-center flex-1 flex-col">
+              <div className="flex items-center">
+                  <Image
+                    src="/images/zuanshi.png"
+                    alt="zuanshi"
+                    width={30}
+                    height={30}
+                  />
+                <span className="text-white text-sm font-semibold leading-3.5 ml-1">
+                  钻石节点
+                </span>
+                </div>
+                <span className="text-[#00FFFB] text-[1.5rem] font-semibold mt-3">
+                  {teamInfo?.n2Count || 0}
+                </span>
+              </div>
+              <div className="flex items-center flex-1 flex-col">
+              <div className="flex items-center">
+                  <Image
+                    src="/images/chaoji.png"
+                    alt="chaoji"
+                    width={30}
+                    height={30}
+                  />
+                <span className="text-white text-sm font-semibold leading-3.5 ml-1">
+                  超级节点
+                </span>
+              </div>
+                <span className="text-[#00FFFB] text-[1.5rem] font-semibold mt-3">
+                  {teamInfo?.n3Count || 0}
+                </span>
+              </div>
             </div>
           </div>
         </div>
         {/* 记录 */}
-        <div className="mt-4 bg-transparent border border-[#57515F] pt-3 px-4 rounded-xl w-full">
-          <div className="text-[#59E5E2] text-lg leading-4.5 font-semibold text-center">
+        <div className="mt-4 border border-[#707070] pt-3 px-4 rounded-[10px] w-full bg-[#18171C]">
+          <div className="ml-3 mx-auto leading-4.5">
             购买记录
           </div>
           {/* table */}
